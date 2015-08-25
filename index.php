@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+/*require 'vendor/autoload.php';
 
 $app = new \Slim\Slim();
 
@@ -8,5 +8,6 @@ $app->get('/', function () {
     echo 'hola mundo';
 });
 
-$app->run();
+$app->run();*/
+echo 'hola mundo';
 ?>
