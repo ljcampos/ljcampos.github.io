@@ -1,0 +1,24 @@
+.logo-img {
+	/*margin: 2px;*/
+	/*background: #fff;*/
+}
+.img-title {
+	margin-left: 80px;
+	font-size: 3em;
+	font-family: "Times New Roman";
+}
+
+.header-img-container {
+	width: 100%;
+    height: 750px;
+    background-image: url('../img/portada.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 40%;
+}
+
+.header-text {
+	/*background: red;*/
+	font-family: "Times New Roman";
+	color: white;
+}
