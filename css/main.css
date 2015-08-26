@@ -7,7 +7,6 @@
 	font-size: 3em;
 	font-family: "Times New Roman";
 }
-
 .header-img-container {
 	width: 100%;
     height: 750px;
@@ -22,3 +21,10 @@
 	font-family: "Times New Roman";
 	color: white;
 }
+
+nav {
+	border-bottom: 1px solid white;
+}
+
+.h5 {
+	color: #01579b;
