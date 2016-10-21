@@ -1,0 +1,17 @@
+{
+  "name": "ljcampos.github.io",
+  "homepage": "https://github.com/ljcampos/ljcampos.github.io",
+  "authors": [
+    "ljcampos <j.ir.vin@hotmail.com>"
+  ],
+  "description": "Personal portfolio",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -9,332 +9,235 @@
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+    <link rel='stylesheet' href='css/bootstrap.css' />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top" class="scrollspy">
 
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-</div>
+    <!-- Pre Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
 
-<!--Navigation-->
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
+    <!--Navigation-->
+    <div class="navbar-fixed">
+        <nav id="nav_f" class="default_color" role="navigation">
+            <div class="container">
+                <div class="nav-wrapper">
+                <a href="#" id="logo-container" class="brand-logo"><strong>Irving<span class='last-name'>GCY</span></strong>
+                </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#intro">Perfil</a></li>
+                        <li><a href="#work">Mis Trabajos</a></li>
+                        <li><a href="#team">Sobre Mi</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="side-nav">
+                        <li><a href="#intro">Perfil</a></li>
+                        <li><a href="#work">Mis Trabajos</a></li>
+                        <li><a href="#team">Sobre Mi</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Header-->
+    <div class="section no-pad-bot" id="index-banner">
         <div class="container">
-            <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo"><strong>Irving<span class='last-name'>GCY</span></strong>
-            </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#intro">Perfil</a></li>
-                    <li><a href="#work">Mis Trabajos</a></li>
-                    <li><a href="#team">Sobre Mi</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#intro">Perfil</a></li>
-                    <li><a href="#work">Mis Trabajos</a></li>
-                    <li><a href="#team">Sobre Mi</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
-        </div>
-    </nav>
-</div>
-
-<!--Header-->
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <h1 class="text_h center header cd-headline letters type">
-        <span><img src="img/perfil1.jpg"></span><br/>
-        <span class='cd-words-wraper waiting'>
-            <strong>Web Developer</strong><br/>
-           <!--  <strong class='subtitle'>No tengo talentos especiales, pero sí soy profundamente curioso.</strong> -->
-        </span>
-            <!-- <span>I Love</span>
-            <span class="cd-words-wrapper waiting">
-                <b class="is-visible">creating</b>
-                <b>designing</b>
-                <b>developing</b>
-            </span> -->
-        </h1>
-    </div>
-</div>
-
-<!--Profile section-->
-<div id="intro" class="section scrollspy">
-    <div class="container">
-        <div class="row">
-            <div  class="col s12">
-                <!-- <h2 class="center header text_h2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="span_h2"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class="span_h2"> laoreet quis.</span> </h2> -->
-                <h2 <h2 class="center header text_h2"><strong>Perfil</strong></h2>
-            </div>
-
-            <div class='col s12 m6 14'>
-                <div class='center'>
-                    <img src="img/back-end.png">
-                    <h5 class="promo-caption"><strong>Back-End</strong></h5>
-                    <p class="light center text-skills">Experiencia en desarrollo web con Frameworks de php tales como: <strong>CakePHP y Laravel.</strong></p>
-                </div>
-            </div>
-
-             <div class='col s12 m6 14'>
-                <div class='center'>
-                    <img src="img/front-end1.png"><br/><br/>
-                    <h5 class="promo-caption"><strong>Front-End</strong></h5>
-                    <p class="light center text-skills">Experiencia en maquetacion de sitios web utilizando las siguientes tecnologias: <strong>HTML5, CSS3, Javasript, Bootstrap3 y JQuery.</strong></p>
-                </div>
-            </div>
-
-            <!-- <div  class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-image-flash-on"></i>
-                    <h5 class="promo-caption">Speeds up development</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-social-group"></i>
-                    <h5 class="promo-caption">User Experience Focused</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-hardware-desktop-windows"></i>
-                    <h5 class="promo-caption">Fully responsive</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                </div>
-            </div> -->
+            <h1 class="text_h center header cd-headline letters type">
+            <span><img src="img/perfil1.jpg"></span><br/>
+            <span class='cd-words-wraper waiting'>
+                <strong>Web Developer</strong><br/>
+               <!--  <strong class='subtitle'>No tengo talentos especiales, pero sí soy profundamente curioso.</strong> -->
+            </span>
+            </h1>
         </div>
     </div>
-</div>
 
-<!--Work section-->
-<div class="section scrollspy" id="work">
-    <div class="container">
-        <h2 class="header text_b">Mis Trabajos </h2>
-        <div class="row">
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/adalan-lite.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Sky Region Editor<i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="http://xcatdb.unistra.fr/3xmmdr5/archesindex.html?mode=catalogue" target="back">Ver</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <!-- <span class="card-title grey-text text-darken-4"> -->
-                        <span class="card-title blue-text">
-                            Sky Region Editor
-                            <i class="mdi-navigation-close right"></i>
-                        </span>
-                        <p><strong>Sky Region Editor</strong> es una herramienta web para dibujar formas geometricas desde el navegador...</p>
-                    </div>
-                </div>
-            </div>
-           <!--  <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project2.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project4.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project5.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project6.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
-</div>
-
-<!--Parallax-->
-<div class="parallax-container">
-    <div class="parallax"><img src="img/foto2.jpg"></div>
-</div>
-
-<!--About me section-->
-<div class="section scrollspy" id="team">
-    <div class="container">
-        <h2 class="header text_b"> Sobre Mi </h2>
-        <div class="row">
-            <div class='col s12 m7 14'>
-                <div class='center'>
-                    <img src="img/portada2.jpg">
-                    <h5 class='subtitle'>"No tengo talentos especiales, pero sí soy profundamente curioso".
-                    <br/><strong class='subtitle-phrase'>Por:</strong><br/>
-                    <strong class='subtitle-phrase'>"Albert Einstein"</strong></h5>
-                    <!-- <h5 class="promo-caption"><strong>Back-End</strong></h5>
-                    <p class="light center text-skills">Experiencia en desarrollo web con Frameworks de php tales como: <strong>CakePHP y Laravel.</strong></p>-->
-                </div>
-            </div>
-
-            <div class='col s12 m5 14'>
-                <div class='center'>
-                <h4 class="promo-caption"><strong>Irving Gerardo Campos Yah</strong></h4>
-                <p class="subtitle-phrase-1">Desarrollador web y fanatico de las series geek. Soy un joven apasionado por las tendencias tecnologias, me gustan las peliculas, la musica y sobre todo soy muy curioso. Me fasina viajar, conocer y aprender de todo.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--Footer-->
-<footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">
-        <div class="row">
-            <!-- <div class="col l6 s12">
-                <form class="col s12" action="contact.php" method="post">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <i class="mdi-action-account-circle prefix white-text"></i>
-                            <input id="icon_prefix" name="name" type="text" class="validate white-text">
-                            <label for="icon_prefix" class="white-text">First Name</label>
-                        </div>
-                        <div class="input-field col s6">
-                            <i class="mdi-communication-email prefix white-text"></i>
-                            <input id="icon_email" name="email" type="email" class="validate white-text">
-                            <label for="icon_email" class="white-text">Email-id</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <i class="mdi-editor-mode-edit prefix white-text"></i>
-                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
-                            <label for="icon_prefix2" class="white-text">Message</label>
-                        </div>
-                        <div class="col offset-s7 s5">
-                            <button class="btn waves-effect waves-light red darken-1" type="submit">Submit
-                                <i class="mdi-content-send right white-text"></i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div> -->
-            <div class="col l5 s12">
-                <img src="img/escuela_tyni.jpg">
-            </div>
-
-            
-            <div class="col l4 s12">
-                <h5 class="white-text">Social</h5>
-                <ul>
-                    <!-- <li>
-                        <a class="white-text" href="https://www.behance.net/joashp">
-                            <i class="small fa fa-behance-square white-text"></i> Behance
-                        </a>
-                    </li> -->
-                    <li>
-                        <a class="white-text" href="https://www.facebook.com/NADIME.ZAPATA" target="blank">
-                            <i class="small fa fa-facebook-square white-text"></i> Facebook
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="#">
-                            <i class="small fa fa-envelope-o white-text"></i> irvincamposyah@gmail.com
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://github.com/ljcampos" target="blank">
-                            <i class="small fa fa-github-square white-text"></i> Github
-                        </a>
-                    </li>
-                    
-                    <!-- <li>
-                        <a class="white-text" href="https://www.linkedin.com/in/joashp">
-                            <i class="small fa fa-linkedin-square white-text"></i> Linkedin
-                        </a>
-                    </li> -->
-                </ul>
-            </div>
-
-            <!-- <div class="col l3 s12">
-                <h5 class="white-text">ljcampos.github.io</h5>
-                <ul>
-                    <li><a class="white-text" href="http://ljcampos.github.io/">Inicio</a></li>
-                    <li><a class="white-text" href="http://www.joashpereira.com/blog">Blog</a></li>
-                </ul>
-            </div> -->
-        </div>
-    </div>
-    <div class="footer-copyright default_color">
+    <!--Profile section-->
+    <div id="intro" class="section scrollspy">
         <div class="container">
-            Hecho por <a class="white-text" href="http://ljcampos.github.io/">Irving campos</a>. Gracias a <a class="white-text" href="http://materializecss.com/">materializecss</a>
+            <div class="row">
+                <div  class="col s12">
+                    <h2 class="center header text_h2"><strong>Perfil</strong></h2>
+                </div>
+
+                <div class='col s12 m6 14'>
+                    <div class='center'>
+                        <img src="img/back-end.png">
+                        <h5 class="promo-caption"><strong>Back-End</strong></h5>
+                        <p class="light center text-skills">
+                            Experiencia en desarrollo web:
+                        </p>
+                        <div class='center'>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                CakePHP 50%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                                Laravel 30%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                MySql 50%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                PHP 50%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class='col s12 m6 14'>
+                    <div class='center'>
+                        <img src="img/front-end1.png"><br/><br/>
+                        <h5 class="promo-caption"><strong>Front-End</strong></h5>
+                        <p class="light center text-skills">Experiencia en maquetacion de sitios web:</p>
+                        <div class='center'>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                HTML5 60%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                CSS3 40%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 66%;">
+                                JavaScript 65%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                Bootstrap 60%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                JQuery 40%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                AngularJS 60%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</footer>
 
+    <!--Work section-->
+    <div class="section scrollspy" id="work">
+        <div class="container">
+            <h2 class="header text_b">Mis Trabajos </h2>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/adalan-lite.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Sky Region Editor<i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a href="http://xcatdb.unistra.fr/3xmmdr5/archesindex.html?mode=catalogue" target="back">Ver</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <!-- <span class="card-title grey-text text-darken-4"> -->
+                            <span class="card-title blue-text">
+                                Sky Region Editor
+                                <i class="mdi-navigation-close right"></i>
+                            </span>
+                            <p><strong>Sky Region Editor</strong> es una herramienta web para dibujar formas geometricas desde el navegador...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Parallax-->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/foto2.jpg"></div>
+    </div>
+
+    <!--About me section-->
+    <div class="section scrollspy" id="team">
+        <div class="container">
+            <h2 class="header text_b"> Sobre Mi </h2>
+            <div class="row">
+                <div class='col s12 m7 14'>
+                    <div class='center'>
+                        <img src="img/portada2.jpg">
+                        <h5 class='subtitle'>"No tengo talentos especiales, pero sí soy profundamente curioso".
+                        <br/><strong class='subtitle-phrase'>Por:</strong><br/>
+                        <strong class='subtitle-phrase'>"Albert Einstein"</strong></h5>
+                    </div>
+                </div>
+
+                <div class='col s12 m5 14'>
+                    <div class='center'>
+                    <h4 class="promo-caption"><strong>Irving Gerardo Campos Yah</strong></h4>
+                    <p class="subtitle-phrase-1">Desarrollador web y fanatico de las series geek. Soy un joven apasionado por las tendencias tecnologias, me gustan las peliculas, la musica y sobre todo soy muy curioso. Me fasina viajar, conocer y aprender de todo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer id="contact" class="page-footer default_color scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col l5 s12">
+                    <img src="img/escuela_tyni.jpg">
+                </div>
+                <div class="col l4 s12">
+                    <h5 class="white-text">Social</h5>
+                    <ul>
+                        <li>
+                            <a class="white-text" href="https://www.facebook.com/NADIME.ZAPATA" target="blank">
+                                <i class="small fa fa-facebook-square white-text"></i> Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="#">
+                                <i class="small fa fa-envelope-o white-text"></i> irvincamposyah@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="https://github.com/ljcampos" target="blank">
+                                <i class="small fa fa-github-square white-text"></i> Github
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright default_color">
+            <div class="container">
+                Hecho por <a class="white-text" href="http://ljcampos.github.io/">Irving campos</a>. Gracias a <a class="white-text" href="http://materializecss.com/">materializecss</a>
+            </div>
+        </div>
+    </footer>
 
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
 
-    </body>
+</body>
 </html>
